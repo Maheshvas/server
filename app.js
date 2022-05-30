@@ -22,7 +22,7 @@ const upload=multer({storage:storage})
 
 async function connectDB(){
     try {
-        return await mongoose.connect('mongodb+srv://manoj45:manoj45@cluster0.30lk2.mongodb.net/?retryWrites=true&w=majority');
+        return await mongoose.connect('mongodb+srv://mahesh12:mahesh12@cluster0.vk2eq.mongodb.net/?retryWrites=true&w=majority');
     } catch(e) {
         console.log(e);
         throw error('database failed to connect to mongodb');
